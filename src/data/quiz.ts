@@ -24,7 +24,7 @@ export const lessons: QuizQuestion[] = [
   {
     quizID: 2,
     question: "Which of these elements would make for a good heading for a webpage?",
-    quiz: ["<h1>Webpage</h1>", "<p>Webpage</p>", "<span> Webpage</span>"],
+    quiz: ["&lt;h1&gt;Webpage&lt;/h1&gt;", "&lt;p&gt;Webpage&lt;/p&gt", "&lt;span&gtWebpage&lt;/span&gt"],
     answer: "a",
     feedback: "Correct! You are doing great!"
   },
@@ -59,14 +59,14 @@ export const lessons: QuizQuestion[] = [
   {
     quizID: 7,
     question: "Which of the following pieces of code will display its contents next to each other (without starting each piece of content on a separate new line).",
-    quiz: ["<span>1</span><span>2</span><span>3</span>", "<section>1</section><section>2</section><section>3</section>", "<p>1</p><p>2</p><p>3</p>"],
+    quiz: ["&lt;span&gt;1&lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;3&lt;/span&gt;", "&lt;pre&gt;1&lt;/pre&gt;&lt;pre&gt;2&lt;/pre&gt;&lt;pre&gt;3&lt;/pre&gt;", "&lt;section&gt;1&lt;/section&gt;&lt;section&gt;2&lt;/section&gt;&lt;section&gt;3&lt;/section&gt;", "&lt;p&gt;1&lt;/p&gt;&lt;p&gt;2&lt;/p&gt;&lt;p&gt;3&lt;/p&gt;"],
     answer: "a",
     feedback: "Correct! You got it!"
   },
   {
     quizID: 8,
     question: "Which of the following pieces of code will produce the following output: <i>HTML Beginner's Course</i>",
-    quiz: ["<p>HTML Beginner's Course</p>", "<i>HTML Beginner's Course</i>", "<b>HTML Beginner's Course</b>"],
+    quiz: ["&lt;p&gt;HTML Beginner's Course&lt;/p&gt;", "&lt;i&gt;HTML Beginner's Course&lt;/i&gt;", "&lt;b&gt;HTML Beginner's Course&lt;/b&gt;"],
     answer: "b",
     feedback: "Correct! Awesome work!"
   },
