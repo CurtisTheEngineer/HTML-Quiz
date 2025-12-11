@@ -18,7 +18,7 @@ const scorePercentage = computed(() => (score.value / totalQuestions) * 100);
 
 const quirkyMessage = computed(() => {
   if (scorePercentage.value >= 100) {
-    return "🫶🏿 **You Did It! 100% Perfection!** 🌟 You truly shine—a coding superstar! Keep making magic!";
+    return "🫶🏿 **You Did It! 100% Perfection!** 🌟 👩🏾‍🦱 🌟 You truly shine—a coding superstar! Keep making magic!";
   } else if (scorePercentage.value >= 80) {
     return "✨ **Amazing Work!** ✨ You've got this down! Your skills are soaring! Keep up the brilliant effort!";
   } else if (scorePercentage.value >= 50) {
