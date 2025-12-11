@@ -18,13 +18,13 @@ const scorePercentage = computed(() => (score.value / totalQuestions) * 100);
 
 const quirkyMessage = computed(() => {
   if (scorePercentage.value >= 100) {
-    return "Perfect Score! You're a coding wizard! 🧙‍♂️ (Or maybe you just Googled it?)";
+    return "🫶🏿 **You Did It! 100% Perfection!** 🌟 You truly shine—a coding superstar! Keep making magic!";
   } else if (scorePercentage.value >= 80) {
-    return "Great job! You speak HTML fluently! 🗣️🌐";
+    return "✨ **Amazing Work!** ✨ You've got this down! Your skills are soaring! Keep up the brilliant effort!";
   } else if (scorePercentage.value >= 50) {
-    return "Not bad! You know enough to be dangerous. ⚠️";
+    return "👍🏿 **Fantastic Progress!** 👍🏿 You've built a strong foundation. Every step forward is a victory—you're getting closer!";
   } else {
-    return "Even the best coders start with syntax errors. Keep debugging! 🐛";
+    return "🌱 **Keep Growing!** 🌱 Learning takes time and practice, and every mistake is a chance to learn something new. You've got the spark—don't give up!";
   }
 });
 
